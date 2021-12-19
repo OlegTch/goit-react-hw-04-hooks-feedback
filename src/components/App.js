@@ -12,8 +12,6 @@ const Feedback = function () {
   const [bad, setBad] = useState(0);
 
   const handleButton = label => {
-    console.log('label', label);
-
     switch (label) {
       case 'good':
         setGood(good + 1);
